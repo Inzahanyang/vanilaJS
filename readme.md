@@ -2,7 +2,7 @@
 
 Simple client side form validation. Check requird, length, email and password match
 
-## Project Specifications
+#### Project Specifications
 
 - Create form UI
 - Show error messages under specific inputs
@@ -15,7 +15,7 @@ Simple client side form validation. Check requird, length, email and password ma
 
 Display movie choices and seats in a theater to select from in order to purchase tickets
 
-## Project Specifications
+#### Project Specifications
 
 - Display UI with movie select, screen, seats, legend & seat info
 - User can select a movie/price
@@ -30,7 +30,7 @@ Design inspiration from [Dribbble](https://dribbble.com/shots/3628370-Movie-Seat
 
 Custom video player using the HTML5 video element and it's JavaScript API with a custom design
 
-## Project Specifications
+#### Project Specifications
 
 - Display custom video player styled with CSS
 - Play/pause
