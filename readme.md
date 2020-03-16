@@ -63,3 +63,14 @@ Project to teach high order array methods and DOM manipulation
 - Use filter() to filter only millionaires
 - Use sort() to sort by wealth
 - Use reduce() to add all wealth
+
+## Modal & Menu Slider
+
+Simple landing page with sliding menu and modal
+
+#### Project Specifications
+
+- Create and style landing page
+- Style side nav and modal
+- Add functionality to make menu open/close on button click
+- Add functionality to make modal open/close on button click
