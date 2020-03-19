@@ -13,6 +13,12 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
+  transition: transform 0.4s ease;
+}
+
+body.show-nav {
+  /* Width of nav */
+  transform: translateX(200px);
 }
 
 nav {
@@ -64,12 +70,12 @@ nav ul li a:hover {
 }
 
 header {
+  position: relative;
   background-color: var(--primary-color);
   color: #fff;
   font-size: 1.3em;
-  position: relative;
-  padding: 40px 15px;
   text-align: center;
+  padding: 40px 15px;
 }
 
 header h1 {
@@ -123,6 +129,11 @@ button:focus {
   bottom: 0;
 }
 
+.modal-container.show-modal {
+  display: block;
+  opacity: 1;
+}
+
 .modal {
   background-color: #fff;
   border-radius: 5px;
@@ -134,6 +145,8 @@ button:focus {
   transform: translate(-50%, -50%);
   max-width: 100%;
   width: 400px;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
 }
 
 .modal-header {
@@ -167,8 +180,17 @@ button:focus {
 
 .close-btn {
   background-color: transparent;
-  font-size: 25px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  font-size: 30px;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
