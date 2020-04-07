@@ -91,7 +91,7 @@ Select a letter to figure out a hidden word in a set amount of chances
 
 ## Meal Finder App
 
-Search and generate random meals from the [naver.com](www.themealdb.com) API
+Search and generate random meals from the [themealdb.com](www.naver.com) API
 
 #### Project Specifications
 
