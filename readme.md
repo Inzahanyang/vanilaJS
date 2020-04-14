@@ -113,3 +113,14 @@ Keep track of income and expenses. Add and remove items and save to local storag
 - Add new transation and reflect in total
 - Delete items from DOM
 - Persist to local storage
+
+## Music Player
+
+Create beautiful UI to play music stored in the "music folder" using the HTML5 audio API
+
+#### Project Specifications
+
+- Create UI for music player including spinning image and song detail popup
+- Add play and pause functionality
+- Switch songs
+- Progress bar
