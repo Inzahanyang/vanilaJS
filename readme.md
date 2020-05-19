@@ -124,3 +124,27 @@ Create beautiful UI to play music stored in the "music folder" using the HTML5 a
 - Add play and pause functionality
 - Switch songs
 - Progress bar
+
+## Infinite Scrolling & Filter
+
+Display blog posts from [jsonplaceholder](https://jsonplaceholder.typicode.com) and add infinite scroll to fetch posts and also add filter box
+
+#### Project Specifications
+
+- Create UI & custom CSS loader animation
+- Fetch initial posts from API and display
+- Scroll down, show loader and fetch next set of posts
+- Add filtering for fetched posts
+
+## Speed Typer Typing Game
+
+Game to beat the clock by typing random words
+
+#### Project Specifications
+
+- Create game UI including a difficuly setting
+- Generate random word and place in DOM
+- Score increase after word is typed
+- Implement timer
+- Add certain amount of time after word is typed based on difficulty
+- Store difficulty setting in local storage
