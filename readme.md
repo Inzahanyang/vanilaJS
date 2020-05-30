@@ -173,3 +173,14 @@ Flash card app for learning. Display, add and remove memory cards with questions
 - View prev and next cards
 - Add new cards to local storage
 - Clear all cards from local storage
+
+## LyricsSearch App
+
+Find songs, artists and lyrics using the [lyrics.ovh](https://lyrics.ovh) API
+
+#### Project Specifications
+
+- Display UI with song/artist input
+- Fetch songs/artists and put in DOM
+- Add pagination
+- Add get lyrics functionality and display in DOM

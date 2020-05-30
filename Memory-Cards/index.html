@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
-      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
@@ -16,6 +17,7 @@
     <button id="clear" class="clear btn">
       <i class="fas fa-trash"></i> Clear Cards
     </button>
+
     <h1>
       Memory Cards
       <button id="show" class="btn btn-small">
@@ -24,7 +26,7 @@
     </h1>
 
     <div id="cards-container" class="cards">
-      <div class="card active">
+      <!-- <div class="card active">
         <div class="inner-card">
           <div class="inner-card-front">
             <p>
@@ -32,7 +34,9 @@
             </p>
           </div>
           <div class="inner-card-back">
-            <p>A Programming language</p>
+            <p>
+              A programming language
+            </p>
           </div>
         </div>
       </div>
@@ -45,10 +49,12 @@
             </p>
           </div>
           <div class="inner-card-back">
-            <p>A Programming language</p>
+            <p>
+              A programming language
+            </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="navigation">
@@ -73,19 +79,19 @@
 
       <div class="form-group">
         <label for="question">Question</label>
-        <textarea id="question" placeholder="Enter question"></textarea>
+        <textarea id="question" placeholder="Enter question..."></textarea>
       </div>
 
       <div class="form-group">
         <label for="answer">Answer</label>
-        <textarea id="answer" placeholder="Enter answer"></textarea>
+        <textarea id="answer" placeholder="Enter Answer..."></textarea>
       </div>
 
       <button id="add-card" class="btn">
-        <i class="fas fa-plus"></i>Add Card
+        <i class="fas fa-plus"></i> Add Card
       </button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
