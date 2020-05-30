@@ -2,6 +2,7 @@ const form = document.getElementById("form");
 const search = document.getElementById("search");
 const result = document.getElementById("result");
 const more = document.getElementById("more");
+const songEl = document.getElementById("song");
 
 const apiURL = "https://api.lyrics.ovh";
 
@@ -25,6 +26,7 @@ function showData(data) {
         <span><strong>${song.artist.name}</strong> - ${song.title}</span>
         <button 
             class="btn" 
+            data-preview="${song.preview}"
             data-artist="${song.artist.name}" 
             data-songtitle="${song.title}"
         >Get Lyrics</button>
@@ -57,6 +59,14 @@ async function getMoreSongs(url) {
   const data = await res.json();
 
   showData(data);
+}
+
+function song(preview) {
+  songEl.innerHTML = `
+        <audio controls autoplay>
+            <source src=${preview} type="audio/mp3">
+        </audio>
+    `;
 }
 
 // Get lyrics for song
@@ -97,6 +107,12 @@ result.addEventListener("click", (e) => {
   if (clickedEl.tagName === "BUTTON") {
     const artist = clickedEl.getAttribute("data-artist");
     const songTitle = clickedEl.getAttribute("data-songTitle");
+
+    const preview = clickedEl.getAttribute("data-preview");
+
+    console.log(preview);
+
+    song(preview);
 
     getLyrics(artist, songTitle);
   }

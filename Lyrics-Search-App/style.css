@@ -79,6 +79,14 @@ form button {
   padding: 13px 30px;
 }
 
+.song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
 .btn {
   background-color: #8d56fd;
   border: 0;
