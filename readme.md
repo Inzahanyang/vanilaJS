@@ -184,3 +184,14 @@ Find songs, artists and lyrics using the [lyrics.ovh](https://lyrics.ovh) API
 - Fetch songs/artists and put in DOM
 - Add pagination
 - Add get lyrics functionality and display in DOM
+
+## Relaxer App
+
+A relaxing breathing app with a visual director to tell you when to breathe in, hold and breathe out
+
+#### Project Specifications
+
+- Create circle and gradient circle with CSS
+- Create and animate pointer (Small circle)
+- Create grow and shrink animations
+- Add JavaScript to create the breath animation effect
